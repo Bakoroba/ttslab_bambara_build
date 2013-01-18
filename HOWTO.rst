@@ -54,8 +54,8 @@ We will refer to the directories where these are located as
 
 Add the following paths to your ``PYTHONPATH``: ``$TTSLAB_ROOT`` and ``$TTSLABDEV_ROOT/modules``. This can be done by including the following line in your ``.bashrc`` file::
 
-export PYTHONPATH=$TTSLABDEV_ROOT/scripts:$TTSLAB_ROOT:$PYTHONPATH
+  export PYTHONPATH=$TTSLABDEV_ROOT/scripts:$TTSLAB_ROOT:$PYTHONPATH
 
 Add the following path to your ``PATH``: ``$TTSLABDEV_ROOT/scripts``. This can be done by including the following in your ``.bashrc`` file::
 
-export PATH=$TTSLABDEV_ROOT/scripts:$PATH
+  export PATH=$TTSLABDEV_ROOT/scripts:$PATH
