@@ -44,3 +44,18 @@ to these packages can be configured:
 2.2. Setting up TTSLab and TTSLabdev
 ------------------------------------
 
+Clone or download the *ttslab* and *ttslabdev* repositories from::
+
+https://github.com/demitasse/ttslab
+https://github.com/demitasse/ttslabdev
+
+We will refer to the directories where these are located as
+``TTSLAB_ROOT`` and ``TTSLABDEV_ROOT`` respectively.
+
+Add the following paths to your ``PYTHONPATH``: ``$TTSLAB_ROOT`` and ``$TTSLABDEV_ROOT/modules``. This can be done by including the following line in your ``.bashrc`` file::
+
+export PYTHONPATH=$TTSLABDEV_ROOT/scripts:$TTSLAB_ROOT:$PYTHONPATH
+
+Add the following path to your ``PATH``: ``$TTSLABDEV_ROOT/scripts``. This can be done by including the following in your ``.bashrc`` file::
+
+export PATH=$TTSLABDEV_ROOT/scripts:$PATH
