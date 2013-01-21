@@ -7,16 +7,12 @@ if [ "$1" == "clean" ]; then
     exit 0
 fi
 
-
 #SETUP ALIGNMENTS:
 ttslab_setup_voicebuild.py \
 -w recordings/chunked/wavs \
 -u recordings/chunked/utts.data \
 -o build
 
-#replace 'default' setup with predefined...
+#replace 'default' setup with one in etc...
 rm -fr build/etc/*
-cd build/etc
-cp ../../etc/* .
-
-cd ..
+cp etc/* build/etc

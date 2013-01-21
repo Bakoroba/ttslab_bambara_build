@@ -1,6 +1,4 @@
 #!/bin/bash
 
-#provides: SPTK_BIN, HTS_BIN, HTS_ENGINE_BIN, ACTIVETCL_BIN
-#source $HOME/source/HTS/paths.sh
-source $HOME/source/HTK/paths.sh
-source $HOME/source/festival_suite/paths.sh
+HTK_BIN=$HOME/source/HTK/htk/HTKTools
+EST_BIN=$HOME/source/festival_suite/speech_tools/bin
